@@ -1,0 +1,3 @@
+SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH 
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE table_name = 'books' AND table_schema = 'alx_book_store';
